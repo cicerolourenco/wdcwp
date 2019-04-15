@@ -1,4 +1,9 @@
 <?php
+
+require(get_template_directory().'/cms/inc/inc_start.php');
+$teste = 'cícero';
+Utils::dumpa($teste);
+
 $fabricante = $_GET[ 'fabricante' ];
 if ( empty( $fabricante ) ) {
     $fabricante = "Fabricante";
