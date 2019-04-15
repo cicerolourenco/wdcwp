@@ -1,8 +1,10 @@
 <?php
-define('WP_DEBUG', false);
-require(get_template_directory().'/cms/inc/inc_start.php');
-$teste = 'cícero';
-Utils::dumpa($teste);
+//define('WP_DEBUG', false);
+//require(get_template_directory().'/cms/inc/inc_start.php');
+//$teste = 'cícero';
+//Utils::dumpa($teste);
+
+echo '<!-- CAMINHO: ' . get_template_directory().'/cms/inc/inc_start.php -->';
 
 $fabricante = $_GET[ 'fabricante' ];
 if ( empty( $fabricante ) ) {
