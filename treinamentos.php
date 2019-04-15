@@ -1,5 +1,5 @@
 <?php
-
+define('WP_DEBUG', false);
 require(get_template_directory().'/cms/inc/inc_start.php');
 $teste = 'cícero';
 Utils::dumpa($teste);
